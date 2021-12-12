@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Animals Photography</title>
+	<meta charset="utf-8">
+	<meta name:"viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="my-framework.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<header> 
+		<h1>Animal Photography</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href= "index.html">Home</a></li>
+			<li><a href= "portfolio.html">Portfolio</a></li>
+			<li><a href= "about.html">About</a></li>
+			<li><a href= "contact.html">Contact</a></li>
+	</nav>
+
+	<main>
+		<div class="containter-fluid">
+			<div class="row"
+				<div class="col-sm-12">
+					<img src="images/deer.jpg" class="header-image" class="img-fluid" height="400" width="1200" alt="deer">
+				</div>	
+			</div>
+		</div>
+
+<div class="containter-fluid">
+	<div class="row"
+		<div class="col-sm-12">		
+			<blockquote>The website features photographs of animals from Pixabay.com. The key to animal photography is patience. It can take a long time to get the right lighting and the best view of the animal. When photographing animals, you do not have a lot of control...you need to wait for them.
+			</blockquote>
+		</div>	
+	</div>
+</div>
+
+	<div class="gallery">
+
+    <div class="preview">
+        <img id="preview" src="images/bison.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+    </div>
+
+    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" 
+        id="img1" src="images/bison.jpg" alt="bison" />
+        
+        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" 
+        id="img2" src="images/hedgehog.jpg" alt="hedgehog"  />
+        
+        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" 
+        id="img3" src="images/eagle.png" alt="eagle" />
+        
+        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" 
+        id="img4" src="images/fox.jpg" alt="fox" />
+        
+        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" 
+        id="img5" src="images/frog.jpg" alt="frog"  />
+        
+        <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" 
+        id="img6" src="images/lizard.jpg" alt="lizard" />
+
+        <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" 
+        id="img7" src="images/rabbit.jpg" alt="rabbit" />
+
+        <img onclick="document.getElementById('preview').src = document.getElementById('img8').src;"
+        id="img8" src="images/turtle.jpg" alt="turtle" />
+    </div>
+</div>
+
+			
+	</main>
+
+<footer>
+
+<div class="containter-fluid">
+	<div class="row">
+		<div class="col-sm-6">
+			<h4 id="right"> Web Design Exercise </h4>
+	        	<p>Animal Photography is a website exercise on image galleries available on <a href="webdevstudents.com">WebDevStudents.com</a>. The images are royalty-free photos from pixabay.com. JavaScript was used to make the photo gallery, and Bootstrap columns for responsive layout. </p>
+		</div>
+		<div class="col-sm-6" class="left">
+			<h4>Connect with Animal Photography!</h4>
+	        	<a href="https://facebook.com">
+	            	<p><i class="fa fa-facebook-square"></i>
+	                    Facebook</p> 
+	            </a>
+	            <a href="https://linked.com">
+	                <p><i class="fa fa-instagram"></i>
+	                    Instagram</p> 
+	            </a>
+	            <a href="mailto:smetoxen@gmail.com">
+	                <p><i class="fa fa-envelope"></i>
+	                    Email Us
+	                </p>
+	            </a>
+        </div>
+	</div>
+</div>
+
+		<small>&copy;Copyright White Buffalo LLC. 
+		</small>
+	</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
